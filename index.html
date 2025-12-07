@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Forez Transition & Climat — Conseil carbone & énergie</title>
+<meta name="description" content="Conseil carbone & énergie pour PME industrielles du Forez — bilans carbone, plan d'actions rentable, accompagnement local." />
+<style>
+  :root{
+    --bg:#ffffff; --text:#0b2330; --accent:#1f4970; --muted:#6b7a86;
+    --maxw:980px;
+    --space:18px;
+    --radius:8px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color:var(--text);
+  }
+  html,body{height:100%; margin:0; background:var(--bg); -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:var(--maxw); margin:28px auto; padding:20px;}
+  header{display:flex; gap:20px; align-items:center; justify-content:space-between;}
+  .brand{display:flex; gap:14px; align-items:center;}
+  .logo{width:62px; height:62px; background:linear-gradient(180deg,var(--accent),#2a6aa0); color:white; display:flex;align-items:center;justify-content:center;border-radius:10px;font-weight:700;}
+  h1{font-size:20px;margin:0;}
+  p.lead{margin:8px 0 0;color:var(--muted); max-width:70%}
+  .cta{display:flex;gap:10px}
+  a.btn{display:inline-block;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:600}
+  a.primary{background:var(--accent);color:white}
+  a.ghost{border:1px solid var(--accent); color:var(--accent); background:transparent}
+
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+  .card{border:1px solid #e6eaee;padding:14px;border-radius:10px;background:#fff}
+  .muted{color:var(--muted);font-size:14px}
+  .big{font-size:18px;font-weight:700;margin:6px 0}
+  ul{margin:8px 0 0;padding-left:18px}
+  .full{grid-column:1/-1}
+  .three{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+  .process{display:flex;gap:12px;align-items:center}
+  .step{flex:1;padding:10px;border-radius:8px;background:#f6fbff;text-align:center;font-weight:600}
+  footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center;padding-bottom:20px}
+
+  /* responsive */
+  @media (max-width:720px){
+    .grid{grid-template-columns:1fr; }
+    p.lead{max-width:100%}
+    .three{grid-template-columns:1fr}
+    header{flex-direction:column;align-items:flex-start}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="logo" aria-hidden="true">FT</div>
+      <div>
+        <h1>Forez Transition & Climat</h1>
+        <p class="lead">Conseil carbone & énergie pour PME industrielles du Forez — bilan opérationnel, plan d'actions rentable.</p>
+      </div>
+    </div>
+
+    <div class="cta">
+      <a class="btn primary" href="tel:+33XXXXXXXXX">📞 Appel rapide</a>
+      <a class="btn ghost" href="mailto:contact@tondomaine.fr?subject=RDV%20Bilan%20Carbone">✉️ Demander RDV</a>
+    </div>
+  </header>
+
+  <main class="grid" role="main">
+    <section class="card">
+      <div class="muted">Ce que je fais</div>
+      <div class="big">Bilan carbone S1-2-3 • Plan d'actions • Accompagnement PME</div>
+      <ul>
+        <li>Détection de leviers économie énergie & process</li>
+        <li>Roadmap 12–18 mois actionnable</li>
+        <li>Accompagnement dirigeant & ateliers</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <div class="muted">Pourquoi c'est utile</div>
+      <div class="big">ROI rapide — réduction coûts — conformité future</div>
+      <p class="muted">Approche pragmatique et locale. Pas de jargon, des chiffres et des gains.</p>
+    </section>
+
+    <section class="card full">
+      <div class="muted">Offres & tarifs indicatifs</div>
+      <div style="display:flex;gap:12px;margin-top:10px;flex-wrap:wrap;">
+        <div style="flex:1;min-width:180px;padding:12px;border-radius:8px;background:#f3f7fb">
+          <strong>Bilan Carbone</strong><div class="muted">2 500 – 6 500 €</div>
+        </div>
+        <div style="flex:1;min-width:180px;padding:12px;border-radius:8px;background:#f3f7fb">
+          <strong>Plan d'actions</strong><div class="muted">1 500 – 4 000 €</div>
+        </div>
+        <div style="flex:1;min-width:180px;padding:12px;border-radius:8px;background:#f3f7fb">
+          <strong>Accompagnement 12 mois</strong><div class="muted">300 – 500 €/mois</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="muted">Le process (simple)</div>
+      <div class="process" style="margin-top:10px">
+        <div class="step">1. Appel 20 min</div>
+        <div class="step">2. Audit & données</div>
+        <div class="step">3. Roadmap & économies</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="muted">Cible</div>
+      <div class="big">PME industrielles locales</div>
+      <ul>
+        <li>Métallurgie, plasturgie, mécanique, agro-industrie</li>
+        <li>Zones industrielles Forez (Montbrison…)</li>
+      </ul>
+    </section>
+
+    <section class="card full">
+      <div class="muted">À propos</div>
+      <p>Je suis ingénieur (expérience technique) spécialisé en conseil opérationnel. J'aide les dirigeants à réduire les coûts énergie et à bâtir une transition utile, mesurable et rentable. Basé dans le Forez.</p>
+    </section>
+
+    <section class="card">
+      <div class="muted">Contact</div>
+      <div class="big">Prendre RDV</div>
+      <p class="muted">☎️ <a href="tel:+33XXXXXXXXX">+33 X XX XX XX XX</a><br>✉️ <a href="mailto:contact@tondomaine.fr">contact@tondomaine.fr</a></p>
+      <p><a class="btn primary" href="mailto:contact@tondomaine.fr?subject=RDV%20Bilan%20Carbone">Demander RDV par mail</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    © Forez Transition & Climat — Micro-entreprise — Mentions légales • SIRET XXXX<br>
+    <small>Site volontairement minimaliste : rapide, lisible, adapté aux PME.</small>
+  </footer>
+</div>
+</body>
+</html>
