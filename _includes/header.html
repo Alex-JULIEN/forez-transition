@@ -1,13 +1,15 @@
 <header class="site-header">
-  <div class="inner">
-    <a class="brand" href="{{ '/' | relative_url }}">
-      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Forez Transition & Climat — logo" class="logo">
-      <span class="brand-title">{{ site.title }}</span>
+  <div class="container header-content">
+    <a href="{{ '/' | relative_url }}" class="logo-link">
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo" class="logo">
     </a>
-    <nav class="main-nav">
-      <a href="{{ '/' | relative_url }}">Accueil</a>
-      <a href="{{ '/about' | relative_url }}">À propos</a>
-      <a href="{{ '/contact' | relative_url }}">Contact</a>
+
+    <nav class="site-nav">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Accueil</a></li>
+        <li><a href="{{ '/apropos' | relative_url }}">À propos</a></li>
+        <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+      </ul>
     </nav>
   </div>
 </header>
