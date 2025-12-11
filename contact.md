@@ -3,10 +3,10 @@ layout: default
 title: Contact
 ---
 
-## Contact
+# Contact
 
-Pour toute demande :  
-- Email : contact@forez-transition.fr  
-- Téléphone : +33 6 XX XX XX XX (à compléter)
+Vous souhaitez échanger ?  
+Envoyez-moi un email à :  
+**contact@forez-transition.fr**
 
-Nous privilégions les échanges par mail pour garder une trace et éviter les réunions inutiles.
+Je réponds sous 24h.
