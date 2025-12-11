@@ -1,5 +1,5 @@
 /* ============================
-   PALETTE COULEURS
+   PALETTE LOW-TECH FOREZ
    ============================ */
 
 :root {
@@ -23,10 +23,15 @@ body {
   padding: 0;
 }
 
-main, .content {
+main {
+  padding: 40px 0;
+}
+
+.content-wrapper {
   max-width: 900px;
   margin: auto;
-  padding: 0 16px;
+  padding: 0 20px;
+  line-height: 1.6;
 }
 
 /* Titres */
@@ -44,12 +49,13 @@ h2 {
 
 h3 {
   font-size: 1.3rem;
+  margin-top: 20px;
   color: var(--vert-foret);
 }
 
 p, li {
-  line-height: 1.6;
   font-size: 1.05rem;
+  line-height: 1.6;
   color: var(--anthracite);
 }
 
@@ -76,12 +82,13 @@ a:hover {
 .header-container {
   max-width: 1000px;
   margin: auto;
-  padding: 0 16px;
+  padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+/* LOGO FIX — version définitive */
 .logo img {
   width: 160px;
   max-width: 100%;
@@ -90,20 +97,20 @@ a:hover {
 }
 
 /* Navigation */
-nav ul {
+.site-nav ul {
   display: flex;
   list-style: none;
-  gap: 24px;
+  gap: 22px;
   margin: 0;
   padding: 0;
 }
 
-nav a {
+.site-nav a {
   font-weight: 600;
   color: var(--anthracite);
 }
 
-nav a:hover {
+.site-nav a:hover {
   color: var(--vert-foret);
 }
 
@@ -115,12 +122,13 @@ nav a:hover {
   background: var(--beige);
   border-top: 2px solid var(--ocre);
   padding: 30px 0;
+  margin-top: 40px;
 }
 
 .footer-container {
   max-width: 900px;
   margin: auto;
-  padding: 0 16px;
+  padding: 0 20px;
   text-align: center;
 }
 
@@ -138,8 +146,20 @@ nav a:hover {
   margin-top: 16px;
   font-size: 0.9rem;
   color: var(--anthracite);
-  text-align: center;        /* <-- obligatoire */
-  width: 100%;               /* <-- empêche les décalages */
+  text-align: center;
+  width: 100%;
+}
+
+/* ============================
+   CARTES / BLOCS
+   ============================ */
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--vert-clair);
+  margin-bottom: 20px;
 }
 
 /* ============================
@@ -160,18 +180,6 @@ nav a:hover {
 }
 
 /* ============================
-   BLOCS & CARTES
-   ============================ */
-
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  border: 1px solid var(--vert-clair);
-  margin-bottom: 20px;
-}
-
-/* ============================
    RESPONSIVE
    ============================ */
 
@@ -182,34 +190,25 @@ nav a:hover {
     gap: 12px;
   }
 
-  nav ul {
-    flex-direction: row;
+  .site-nav ul {
     flex-wrap: wrap;
-    gap: 12px;
     justify-content: center;
+    gap: 12px;
   }
 
   .logo img {
-    width: 160px;
+    width: 150px;
   }
 
   .footer-container {
     flex-direction: column;
-    text-align: center;
     gap: 12px;
   }
 
   .footer-right {
-    flex-direction: row;
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 16px;
   }
-}
-
-/* Fix logo global */
-.logo img {
-  width: 160px !important;   /* logo cohérent partout */
-  height: auto !important;
-  max-width: 100%;
-  display: block;
 }
