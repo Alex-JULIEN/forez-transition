@@ -1,38 +1,79 @@
-/* Low-tech / low-weight CSS — pas de frameworks */
-:root{
-  --bg: #f7f6f1;
-  --text: #111;
-  --muted: #445044;
-  --accent: #2f5b3d; /* vert sombre */
-  --max-width: 980px;
-  --gap: 1.25rem;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+/* PALETTE */
+:root {
+  --vert-foret: #2E4E3F;
+  --ocre: #C9A66B;
+  --beige: #F5F1E8;
+  --anthracite: #1F1F1F;
+  --blanc-casse: #FAF8F4;
 }
 
-*{box-sizing:border-box}
-html,body{margin:0;padding:0;background:var(--bg);color:var(--text);line-height:1.45}
-a{color:var(--accent);text-decoration:underline}
-.wrap{max-width:var(--max-width);margin:1.25rem auto;padding:0 var(--gap)}
-.site-header{background:transparent;border-bottom:1px solid rgba(0,0,0,0.06);padding:0.6rem 0}
-.site-header .inner{display:flex;align-items:center;justify-content:space-between}
-.brand{display:flex;align-items:center;gap:0.6rem;text-decoration:none;color:inherit}
+/* GLOBAL */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--beige);
+  color: var(--anthracite);
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.site-header {
+  background: var(--blanc-casse);
+  border-bottom: 2px solid var(--ocre);
+  padding: 12px 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 950px;
+  margin: auto;
+  padding: 0 16px;
+}
+
 .logo {
-  width: 160px;
-  max-width: 80%;
+  width: 140px;  /* augmente si tu veux + visible */
   height: auto;
 }
-.brand-title{font-weight:700;font-size:1rem}
-.main-nav a{margin-left:1rem;font-size:0.95rem;color:var(--muted);text-decoration:none}
-.hero{padding:1.5rem 0;margin-bottom:1rem}
-.hero h1{margin:0;font-size:1.9rem;color:var(--accent)}
-.lede{color:var(--muted);margin-top:0.35rem}
-.content{display:grid;grid-template-columns:1fr;gap:1rem}
-.card{background:white;padding:1rem;border-radius:6px;box-shadow:0 0 0 1px rgba(0,0,0,0.02)}
-.contact-cta{border-left:4px solid var(--accent)}
-.small{font-size:0.85rem;color:var(--muted)}
-.site-footer{margin-top:2rem;padding:1rem 0;border-top:1px solid rgba(0,0,0,0.06);text-align:center}
-@media(min-width:720px){
-  .content{grid-template-columns:2fr 1fr}
-  .main-nav a{margin-left:1.25rem}
+
+/* NAVIGATION */
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 
+.site-nav a {
+  color: var(--vert-foret);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-nav a:hover {
+  color: var(--ocre);
+}
+
+/* RESPONSIVE HEADER */
+@media (max-width: 700px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .site-nav ul {
+    margin-top: 12px;
+    gap: 16px;
+  }
+
+  .logo {
+    width: 160px; /* un peu plus grand sur mobile */
+  }
+}
+
+/* TITRES */
+h1, h2 {
+  color: var(--vert-foret);
+}
