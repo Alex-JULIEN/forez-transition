@@ -136,3 +136,34 @@ h1, h2 {
     gap: 16px;
   }
 }
+
+
+h1 {
+  font-size: 2.3rem;
+  margin-bottom: 16px;
+  color: var(--vert-foret);
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-top: 32px;
+  color: var(--vert-foret);
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: var(--vert-foret);
+}
+
+p, li {
+  line-height: 1.6;
+  font-size: 1.05rem;
+  color: var(--anthracite);
+}
+
+main, .content {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 16px;
+}
+
