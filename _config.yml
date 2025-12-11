@@ -1,4 +1,8 @@
 title: Forez Transition & Climat
-description: Conseil carbone et énergie pour PME industrielles du Forez
+description: Accompagnement local pour la transition écologique dans le Forez.
+baseurl: "" # laisser vide pour GitHub Pages à la racine
+url: "https://forez-transition.fr" # ton domaine final
+theme: null
 markdown: kramdown
-theme: minima
+permalink: pretty
+paginate: 5
