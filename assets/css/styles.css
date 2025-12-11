@@ -114,9 +114,7 @@ nav a:hover {
 .site-footer {
   background: var(--beige);
   border-top: 2px solid var(--ocre);
-  margin-top: 40px;
   padding: 30px 0;
-  font-size: 0.95rem;
 }
 
 .footer-container {
@@ -137,8 +135,11 @@ nav a:hover {
 }
 
 .footer-copy {
-  margin-top: 12px;
+  margin-top: 16px;
+  font-size: 0.9rem;
   color: var(--anthracite);
+  text-align: center;        /* <-- obligatoire */
+  width: 100%;               /* <-- empêche les décalages */
 }
 
 /* ============================
