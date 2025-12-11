@@ -204,3 +204,11 @@ nav a:hover {
     gap: 16px;
   }
 }
+
+/* Fix logo global */
+.logo img {
+  width: 160px !important;   /* logo cohérent partout */
+  height: auto !important;
+  max-width: 100%;
+  display: block;
+}
