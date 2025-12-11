@@ -1,86 +1,116 @@
-/* PALETTE */
+/* ============================
+   PALETTE COULEURS
+   ============================ */
+
 :root {
   --vert-foret: #2E4E3F;
-  --ocre: #C9A66B;
-  --beige: #F5F1E8;
-  --anthracite: #1F1F1F;
-  --blanc-casse: #FAF8F4;
+  --vert-clair: #A9C1A9;
+  --ocre: #D8A35D;
+  --beige: #F4EBD0;
+  --blanc-casse: #FAF7F0;
+  --anthracite: #333333;
 }
 
-/* GLOBAL */
+/* ============================
+   GLOBAL
+   ============================ */
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background: var(--beige);
+  font-family: system-ui, sans-serif;
+  background: var(--blanc-casse);
   color: var(--anthracite);
   margin: 0;
   padding: 0;
 }
 
-/* HEADER */
-.site-header {
-  background: var(--blanc-casse);
-  border-bottom: 2px solid var(--ocre);
-  padding: 12px 0;
-}
-
-.header-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 950px;
+main, .content {
+  max-width: 900px;
   margin: auto;
   padding: 0 16px;
 }
 
-.logo {
-  width: 140px;  /* augmente si tu veux + visible */
+/* Titres */
+h1 {
+  font-size: 2.3rem;
+  margin-bottom: 16px;
+  color: var(--vert-foret);
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-top: 32px;
+  color: var(--vert-foret);
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: var(--vert-foret);
+}
+
+p, li {
+  line-height: 1.6;
+  font-size: 1.05rem;
+  color: var(--anthracite);
+}
+
+/* Liens */
+a {
+  color: var(--vert-foret);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--ocre);
+}
+
+/* ============================
+   HEADER
+   ============================ */
+
+.site-header {
+  background: var(--beige);
+  border-bottom: 2px solid var(--ocre);
+  padding: 16px 0;
+}
+
+.header-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 180px;
   height: auto;
 }
 
-/* NAVIGATION */
-.site-nav ul {
-  list-style: none;
+/* Navigation */
+nav ul {
   display: flex;
+  list-style: none;
   gap: 24px;
   margin: 0;
   padding: 0;
 }
 
-.site-nav a {
-  color: var(--vert-foret);
-  text-decoration: none;
+nav a {
   font-weight: 600;
+  color: var(--anthracite);
 }
 
-.site-nav a:hover {
-  color: var(--ocre);
-}
-
-/* RESPONSIVE HEADER */
-@media (max-width: 700px) {
-  .header-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .site-nav ul {
-    margin-top: 12px;
-    gap: 16px;
-  }
-
-  .logo {
-    width: 160px; /* un peu plus grand sur mobile */
-  }
-}
-
-/* TITRES */
-h1, h2 {
+nav a:hover {
   color: var(--vert-foret);
 }
 
-/* FOOTER */
+/* ============================
+   FOOTER
+   ============================ */
+
 .site-footer {
-  background: var(--blanc-casse);
+  background: var(--beige);
   border-top: 2px solid var(--ocre);
   margin-top: 40px;
   padding: 24px 0;
@@ -109,7 +139,6 @@ h1, h2 {
 
 .footer-right a {
   color: var(--vert-foret);
-  text-decoration: none;
 }
 
 .footer-right a:hover {
@@ -122,8 +151,57 @@ h1, h2 {
   color: var(--anthracite);
 }
 
-/* RESPONSIVE */
+/* ============================
+   BOUTONS
+   ============================ */
+
+.button {
+  display: inline-block;
+  padding: 10px 18px;
+  background: var(--vert-foret);
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.button:hover {
+  background: var(--ocre);
+}
+
+/* ============================
+   BLOCS & CARTES
+   ============================ */
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--vert-clair);
+  margin-bottom: 20px;
+}
+
+/* ============================
+   RESPONSIVE
+   ============================ */
+
 @media (max-width: 700px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .logo img {
+    width: 160px;
+  }
+
   .footer-container {
     flex-direction: column;
     text-align: center;
@@ -136,34 +214,3 @@ h1, h2 {
     gap: 16px;
   }
 }
-
-
-h1 {
-  font-size: 2.3rem;
-  margin-bottom: 16px;
-  color: var(--vert-foret);
-}
-
-h2 {
-  font-size: 1.7rem;
-  margin-top: 32px;
-  color: var(--vert-foret);
-}
-
-h3 {
-  font-size: 1.3rem;
-  color: var(--vert-foret);
-}
-
-p, li {
-  line-height: 1.6;
-  font-size: 1.05rem;
-  color: var(--anthracite);
-}
-
-main, .content {
-  max-width: 900px;
-  margin: auto;
-  padding: 0 16px;
-}
-
