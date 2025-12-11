@@ -83,8 +83,10 @@ a:hover {
 }
 
 .logo img {
-  width: 180px;
+  width: 160px;
+  max-width: 100%;
   height: auto;
+  display: block;
 }
 
 /* Navigation */
@@ -113,41 +115,29 @@ nav a:hover {
   background: var(--beige);
   border-top: 2px solid var(--ocre);
   margin-top: 40px;
-  padding: 24px 0;
+  padding: 30px 0;
   font-size: 0.95rem;
 }
 
 .footer-container {
-  max-width: 950px;
+  max-width: 900px;
   margin: auto;
   padding: 0 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  text-align: center;
 }
 
-.footer-left p {
-  margin: 4px 0;
-  color: var(--anthracite);
-}
-
+.footer-left,
 .footer-right {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+  margin-bottom: 12px;
 }
 
 .footer-right a {
-  color: var(--vert-foret);
-}
-
-.footer-right a:hover {
-  color: var(--ocre);
+  margin: 0 8px;
+  display: inline-block;
 }
 
 .footer-copy {
-  text-align: center;
-  margin-top: 20px;
+  margin-top: 12px;
   color: var(--anthracite);
 }
 
