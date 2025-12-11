@@ -1,19 +1,30 @@
 ---
 layout: default
-title: Forez Transition & Climat
+title: Accueil
 ---
 
-<h1>Forez Transition & Climat</h1>
-<p>Conseil carbone & énergie pour PME industrielles du Forez.</p>
+<header class="hero">
+  <h1>Forez Transition & Climat</h1>
+  <p class="lede">Accompagnement local pour réduire l'empreinte carbone et accélérer la transition énergétique dans le Forez.</p>
+</header>
 
-<h2>Ce que je fais</h2>
-<ul>
-  <li>Bilan Carbone (scopes 1–2–3)</li>
-  <li>Plans d'actions énergie / carbone</li>
-  <li>Accompagnement dirigeants</li>
-  <li>Formations et ateliers</li>
-</ul>
+<main class="content">
+  <section class="card">
+    <h2>Nos offres</h2>
+    <ul>
+      <li>Audit carbone local</li>
+      <li>Accompagnement projets de rénovation</li>
+      <li>Ateliers & formation</li>
+    </ul>
+  </section>
 
-<h2>Contact</h2>
-<p>Email : contact@forez-transition.fr</p>
-<p>Zone : Montbrison – Loire – Forez</p>
+  <section class="card">
+    <h2>Dernières actus</h2>
+    <p>Site mis en place — contenu à venir. Contactez-nous pour démarrer un diagnostic.</p>
+  </section>
+
+  <aside class="contact-cta card">
+    <h3>Contact</h3>
+    <p>Email : <a href="mailto:contact@forez-transition.fr">contact@forez-transition.fr</a></p>
+  </aside>
+</main>
