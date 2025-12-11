@@ -1,7 +1,7 @@
 title: Forez Transition & Climat
 description: Accompagnement local pour la transition écologique dans le Forez.
 baseurl: "/forez-transition"
-url: "https://forez-transition.fr" # ton domaine final
+url: "https://alex-julien.github.io"
 theme: null
 markdown: kramdown
 permalink: pretty
