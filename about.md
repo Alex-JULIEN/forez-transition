@@ -3,11 +3,10 @@ layout: default
 title: À propos
 ---
 
-## Qui sommes-nous
+# À propos
 
-Forez Transition & Climat accompagne les acteurs locaux (particuliers, entreprises, collectivités) pour passer à l'action avec sobriété et efficacité.
+Je suis Alexandre, ingénieur énergie spécialiste des problématiques carbone et industrielles dans le Forez.
 
-### Valeurs
-- Local
-- Pragmatique
-- Basse consommation de ressources
+## Pourquoi Forez Transition & Climat ?
+
+Un accompagnement simple, local, sans bullshit, adapté aux PME industrielles.
