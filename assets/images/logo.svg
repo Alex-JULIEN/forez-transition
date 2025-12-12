@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="400" height="120" role="img" aria-label="Forez Transition &amp; Climat">
+  <rect width="200" height="60" rx="8" fill="#2E4E3F"></rect>
+  <g transform="translate(12,10)" fill="#F4EBD0">
+    <!-- symbole simple : feuille + piste -->
+    <path d="M10 25 C20 5 40 5 50 25 C40 20 30 24 10 25 Z" fill="#F4EBD0" opacity="0.95"></path>
+    <path d="M60 10 L95 10 L95 14 L60 14 Z" fill="#D8A35D"></path>
+  </g>
+  <text x="80" y="37" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="16" fill="#F4EBD0">Forez Transition</text>
+</svg>
