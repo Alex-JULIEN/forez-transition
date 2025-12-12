@@ -1,23 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} - Forez Transition & Climat</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ page.title }} — {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
-
 <body>
-
   {% include header.html %}
 
   <main class="main-content">
-    <div class="content-wrapper">
+    <div class="content-wrapper container">
       {{ content }}
     </div>
   </main>
 
   {% include footer.html %}
-
 </body>
 </html>
+
