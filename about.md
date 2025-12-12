@@ -3,10 +3,12 @@ layout: default
 title: À propos
 ---
 
-# À propos
+<h1 class="page-title">À propos</h1>
 
-Je suis Alexandre, ingénieur énergie spécialiste des problématiques carbone et industrielles dans le Forez.
+<section class="page-content">
+  <h2>Qui sommes-nous ?</h2>
+  <p>Forez Transition &amp; Climat accompagne les PME industrielles locales pour réduire leur empreinte carbone avec pragmatisme et sobriété.</p>
 
-## Pourquoi Forez Transition & Climat ?
-
-Un accompagnement simple, local, sans bullshit, adapté aux PME industrielles.
+  <h3>Approche</h3>
+  <p>Locale, mesurable et axée résultats — pas de dogme, seulement des actions rentables.</p>
+</section>
