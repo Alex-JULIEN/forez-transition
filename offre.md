@@ -3,13 +3,17 @@ layout: default
 title: Offre
 ---
 
-# Notre offre d’accompagnement carbone
+<h1 class="page-title">Notre offre</h1>
 
-## Diagnostic carbone complet
-Analyse des émissions (scopes 1, 2, 3), priorisation, cartographie énergétique.
+<section class="page-content">
+  <h2>Diagnostic carbone</h2>
+  <p>Audit pragmatique : collecte des données, mesure des consommations, cartographie des postes clés.</p>
 
-## Plan d’action bas-carbone
-Stratégie, feuille de route, investissements, ROI estimé.
+  <h2>Plan d'action bas-carbone</h2>
+  <p>Priorisation des actions court/moyen terme avec estimation coûts / gains et planning.</p>
 
-## Accompagnement industriel
-Sobriété, process, achats, transport, déchets.
+  <h2>Accompagnement & suivi</h2>
+  <p>Mise en œuvre technique, formation de vos équipes, et suivi des indicateurs (économie d'énergie, réduction CO₂).</p>
+
+  <p class="cta"><a class="btn-primary" href="{{ '/contact/' | relative_url }}">Demander un diagnostic</a></p>
+</section>
