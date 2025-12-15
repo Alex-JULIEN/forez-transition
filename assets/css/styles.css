@@ -1,63 +1,74 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --green: #005059;
-  --bordeaux: #76162F;
-  --ocre: #CC9E00;
-  --text: #121E1C;
-  --bg-light: #F8F8F8;
-  --bg-beige: #EAE1C9;
-  --max-width: 1100px;
+  --green:#005059;
+  --bordeaux:#76162F;
+  --ocre:#CC9E00;
+  --text:#121E1C;
+  --bg:#F8F8F8;
+  --beige:#EAE1C9;
+  --max:1100px;
 }
 
 body {
   font-family: Lato, Roboto, sans-serif;
-  background: var(--bg-light);
+  background: var(--bg);
   color: var(--text);
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
-h1, h2, h3 {
+h1,h2,h3 {
   font-family: Montserrat, Inter, sans-serif;
   margin-bottom: 1rem;
 }
 
 h1 { font-size: 2.6rem; }
 h2 { font-size: 2rem; }
-h3 { font-size: 1.4rem; }
+h3 { font-size: 1.3rem; }
 
-p { margin-bottom: 1rem; font-size: 1rem; }
+p { margin-bottom: 1rem; max-width: 60ch; }
 
 a { color: var(--green); text-decoration: none; }
 
 header {
   border-bottom: 1px solid #ddd;
+  background: #fff;
 }
 
 .header-inner {
-  max-width: var(--max-width);
+  max-width: var(--max);
   margin: auto;
-  padding: 1rem 1.5rem;
+  padding: 1.2rem 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav a { margin-left: 1.5rem; font-weight: 500; }
+.header-inner img {
+  height: 42px;
+}
 
-.container {
-  max-width: var(--max-width);
-  margin: auto;
+nav a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+section {
   padding: 4rem 1.5rem;
 }
 
-.section-beige { background: var(--bg-beige); }
+.container {
+  max-width: var(--max);
+  margin: auto;
+}
 
-.section-center { text-align: center; }
+.section-beige { background: var(--beige); }
+
+.center { text-align: center; }
 
 .grid-3 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
   gap: 2rem;
 }
 
@@ -69,11 +80,16 @@ nav a { margin-left: 1.5rem; font-weight: 500; }
 
 .offer h3 { color: var(--green); }
 
+.offer ul {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+}
+
 .btn {
   display: inline-block;
   padding: 0.7rem 1.4rem;
-  margin-top: 1rem;
   font-weight: 500;
+  margin-top: 1rem;
 }
 
 .btn-primary {
@@ -82,13 +98,17 @@ nav a { margin-left: 1.5rem; font-weight: 500; }
 }
 
 footer {
-  background: var(--bg-beige);
-  text-align: center;
+  background: var(--beige);
   padding: 3rem 1.5rem;
+  text-align: center;
   font-size: 0.9rem;
 }
 
-@media (max-width: 768px) {
-  h1 { font-size: 2.1rem; }
-  h2 { font-size: 1.7rem; }
+footer strong {
+  font-family: Montserrat, sans-serif;
+}
+
+@media(max-width:768px){
+  h1{font-size:2.1rem;}
+  h2{font-size:1.7rem;}
 }
