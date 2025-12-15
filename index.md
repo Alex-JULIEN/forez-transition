@@ -1,38 +1,56 @@
----
-layout: default
-title: Accueil
----
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Forez Transition – Climat et territoires</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-<section class="hero">
-  <div class="hero-inner">
-    <h1>Forez Transition &amp; Climat</h1>
-    <p class="hero-sub">Savoir d'où l'on vient pour savoir où l'on va.</p>
-    <p class="hero-lead">Diagnostic carbone local, plan d'action pragmatique, et accompagnement opérationnel pour PME industrielles du Forez.</p>
-    <p class="cta"><a class="btn-primary" href="{{ '/offre/' | relative_url }}">Découvrir l’offre</a></p>
+<header>
+  <div class="header-inner">
+    <img src="assets/logo.svg" alt="Forez Transition">
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="approche.html">Approche</a>
+      <a href="offres.html">Offres</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="container section-center">
+  <h1>Savoir d’où l’on vient pour savoir où l’on va</h1>
+  <p>
+    Forez Transition accompagne les PME et collectivités locales
+    dans la compréhension et la réduction de leur empreinte carbone,
+    avec une approche sobre, pragmatique et territoriale.
+  </p>
+  <a class="btn btn-primary" href="offres.html">Voir les offres</a>
+</section>
+
+<section class="container section-beige">
+  <h2>Une trajectoire bas-carbone claire</h2>
+  <div class="grid-3">
+    <div>
+      <h3>Comprendre</h3>
+      <p>Identifier les postes d’émissions réellement structurants.</p>
+    </div>
+    <div>
+      <h3>Structurer</h3>
+      <p>Construire une trajectoire alignée SNBC et réaliste.</p>
+    </div>
+    <div>
+      <h3>Agir</h3>
+      <p>Passer à l’action sans greenwashing ni injonctions irréalistes.</p>
+    </div>
   </div>
 </section>
 
-<section class="section features">
-  <article class="feature card">
-    <h3>Diagnostic carbone</h3>
-    <p>Mesure pragmatique et priorisation des leviers — scope 1, 2 et 3.</p>
-  </article>
+<footer>
+  <p><strong>Forez Transition</strong><br>Climat et territoires</p>
+  <p>© 2026</p>
+</footer>
 
-  <article class="feature card">
-    <h3>Plan d'action</h3>
-    <p>Feuille de route claire, chiffrée et compatible avec votre cadence industrielle.</p>
-  </article>
-
-  <article class="feature card">
-    <h3>Accompagnement opérationnel</h3>
-    <p>Mise en œuvre, formation équipes et suivi des gains énergétiques.</p>
-  </article>
-</section>
-
-<section class="section why">
-  <div class="container content-block">
-    <h2>Pourquoi faire un bilan carbone ?</h2>
-    <p>Pour prioriser — éviter les dépenses inutiles — piloter les actions avec des indicateurs clairs et financiers.</p>
-    <a class="btn-ghost" href="{{ '/contact/' | relative_url }}">Contactez-nous</a>
-  </div>
-</section>
+</body>
+</html>
