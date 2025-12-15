@@ -1,7 +1,9 @@
 ---
+title: À propos
+permalink: /about/
 layout: default
-title: Approche
 ---
+
 
 # Une approche sobre, territoriale et pragmatique
 
