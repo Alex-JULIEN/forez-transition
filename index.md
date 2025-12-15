@@ -3,38 +3,32 @@ layout: default
 title: Accueil
 ---
 
-<section class="container center">
-# Bilan carbone et stratégie bas-carbone  
-pour les territoires et organisations locales
+# Forez Transition  
+## Climat & territoires
 
-Forez Transition accompagne les PME industrielles et les collectivités locales
-dans la compréhension et la structuration de leur trajectoire bas-carbone,
-avec une approche sobre, territoriale et alignée SNBC.
+> *Savoir d’où l’on vient pour savoir où l’on va.*
 
-[Découvrir les offres]({{ site.baseurl }}/offres){: .btn }
+---
 
-*Savoir d’où l’on vient pour savoir où l’on va*
-</section>
+## Accompagner les entreprises et collectivités du territoire
+Forez Transition accompagne les PME et les acteurs publics dans la compréhension, la réduction et le pilotage de leurs impacts carbone, avec une approche sobre, territoriale et pragmatique.
 
-<section class="section-beige">
-<div class="container">
+---
 
-## Pourquoi agir maintenant ?
+## Nos offres
 
-<div class="grid-3">
-<div>
-### Cadre climatique renforcé
-La SNBC 3 renforce les exigences et clarifie les trajectoires sectorielles.
-</div>
-<div>
-### Pression économique
-Le carbone devient un sujet stratégique pour les organisations locales.
-</div>
-<div>
-### Rôle clé des territoires
-Les décisions locales conditionnent la réussite de la transition.
-</div>
-</div>
+### 1. Comprendre son empreinte carbone
+Un premier diagnostic pour identifier les principaux postes d’émissions et disposer d’une base de décision claire.
 
-</div>
-</section>
+### 2. Structurer une trajectoire bas carbone
+Un accompagnement aligné avec les stratégies nationales et sectorielles (SNBC, trajectoires bas carbone), pour anticiper les obligations réglementaires et piloter la transition.
+
+### 3. Passer à l’action sur le territoire
+Mise en œuvre concrète, mobilisation des équipes et ancrage local des actions de réduction.
+
+➡️ [Découvrir les offres]({{ site.baseurl }}/offres)
+
+---
+
+## Une approche low-tech et territoriale
+Sobriété, clarté, utilité : Forez Transition privilégie des outils simples, compréhensibles et adaptés aux réalités locales.
