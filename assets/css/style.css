@@ -102,3 +102,12 @@ footer{text-align:center;padding:2rem;font-size:.9rem;color:#555;}
   text-align: center;
   padding: 3rem 1.5rem;
 }
+
+
+.methodologie {
+  background: #fff;
+  border-left: 6px solid var(--green);
+  padding: 3rem;
+  border-radius: 8px;
+  margin-bottom: 4rem;
+}
