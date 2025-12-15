@@ -20,64 +20,78 @@ layout: default
 <section class="offres-parcours">
 
   <article class="offre-card">
-    <div class="offre-header">
-      <h2>Comprendre</h2>
-      <span class="offre-tag">Diagnostic & lecture carbone</span>
-    </div>
-    <p class="offre-intro">
-      Pour les structures qui veulent savoir où elles en sont,
-      sans s’engager dans une démarche lourde ou disproportionnée.
-    </p>
-    <ul>
-      <li>Diagnostic carbone proportionné à la taille et à l’activité</li>
-      <li>Identification des principaux postes d’émissions</li>
-      <li>Lecture pédagogique et partagée des résultats</li>
-      <li>Mise en perspective avec les enjeux territoriaux</li>
-    </ul>
-    <p class="offre-outcome">
-      👉 Une base claire et fiable pour décider en connaissance de cause.
-    </p>
-  </article>
+  <div class="offre-header">
+    <h2>Comprendre</h2>
+    <span class="offre-tag">Cadrage carbone & énergétique</span>
+  </div>
+  <p class="offre-intro">
+    Une première approche pour comprendre les enjeux carbone
+    de votre activité sans entrer dans une démarche lourde.
+  </p>
+  <ul>
+    <li>Cadrage simplifié des émissions et des usages énergétiques</li>
+    <li>Ordres de grandeur et postes principaux</li>
+    <li>Lecture pédagogique et accessible</li>
+    <li>Identification des premiers leviers d’action</li>
+  </ul>
+  <p class="offre-outcome">
+    👉 Une vision claire pour décider de la suite à donner.
+  </p>
+</article>
 
   <article class="offre-card accent">
-    <div class="offre-header">
-      <h2>Structurer</h2>
-      <span class="offre-tag">Trajectoire & cadre réglementaire</span>
-    </div>
-    <p class="offre-intro">
-      Pour les organisations qui doivent anticiper les évolutions
-      réglementaires et inscrire leur stratégie dans le temps long.
-    </p>
-    <ul>
-      <li>Traduction opérationnelle de la SNBC 3</li>
-      <li>Analyse des stratégies bas-carbone sectorielles</li>
-      <li>Définition d’une trajectoire réaliste et défendable</li>
-      <li>Priorisation des leviers d’action</li>
-    </ul>
-    <p class="offre-outcome">
-      👉 Une feuille de route cohérente, alignée avec les attentes nationales.
-    </p>
-  </article>
+  <div class="offre-header">
+    <h2>Structurer</h2>
+    <span class="offre-tag">Bilan Carbone® & trajectoire</span>
+  </div>
+  <p class="offre-intro">
+    Une démarche structurante pour inscrire votre organisation
+    dans une trajectoire bas-carbone crédible.
+  </p>
+  <ul>
+    <li>Réalisation d’un <strong>Bilan Carbone®</strong> (méthodologie ADEME / ABC)</li>
+    <li>Périmètre adapté aux enjeux de la structure</li>
+    <li>Analyse détaillée des postes d’émissions</li>
+    <li>Mise en cohérence avec la <strong>SNBC 3</strong> et les trajectoires sectorielles</li>
+  </ul>
+  <p class="offre-outcome">
+    👉 Une base méthodologique robuste pour piloter la transition.
+  </p>
+</article>
 
   <article class="offre-card">
-    <div class="offre-header">
-      <h2>Agir</h2>
-      <span class="offre-tag">Plan d’actions & accompagnement</span>
-    </div>
-    <p class="offre-intro">
-      Pour passer de la stratégie à l’action,
-      en tenant compte des contraintes techniques, humaines et économiques.
-    </p>
-    <ul>
-      <li>Construction de plans d’actions opérationnels</li>
-      <li>Articulation carbone, énergie et usages</li>
-      <li>Suivi dans le temps et ajustements</li>
-      <li>Mobilisation des acteurs du territoire</li>
-    </ul>
-    <p class="offre-outcome">
-      👉 Des actions concrètes, mesurables et adaptées au terrain.
-    </p>
-  </article>
+  <div class="offre-header">
+    <h2>Agir</h2>
+    <span class="offre-tag">Plans d’actions & suivi</span>
+  </div>
+  <p class="offre-intro">
+    Un accompagnement dans la durée pour transformer
+    les orientations stratégiques en actions concrètes.
+  </p>
+  <ul>
+    <li>Construction de plans d’actions opérationnels</li>
+    <li>Priorisation selon impact carbone et faisabilité</li>
+    <li>Définition d’indicateurs de suivi</li>
+    <li>Accompagnement et ajustements dans le temps</li>
+  </ul>
+  <p class="offre-outcome">
+    👉 Des actions suivies, réalistes et ancrées dans le réel.
+  </p>
+</article>
+
+<section class="methodologie">
+  <h2>Une méthodologie reconnue</h2>
+  <p>
+    Les offres <strong>Structurer</strong> et <strong>Agir</strong>
+    s’appuient sur la méthode <strong>Bilan Carbone®</strong>,
+    développée par l’ADEME et portée par l’Association pour la transition Bas Carbone (ABC).
+  </p>
+  <p>
+    Cette méthode constitue une référence reconnue
+    pour construire des trajectoires bas-carbone crédibles
+    et comparables.
+  </p>
+</section>
 
 </section>
 
