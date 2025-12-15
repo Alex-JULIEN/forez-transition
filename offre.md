@@ -1,19 +1,88 @@
----
-layout: default
-title: Offre
----
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Offres – Forez Transition</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-<h1 class="page-title">Notre offre</h1>
+<header>
+  <div class="header-inner">
+    <img src="assets/logo.svg">
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="approche.html">Approche</a>
+      <a href="offres.html">Offres</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
 
-<section class="page-content">
-  <h2>Diagnostic carbone</h2>
-  <p>Audit pragmatique : collecte des données, mesure des consommations, cartographie des postes clés.</p>
+<section class="container">
+  <h1>Une offre bas-carbone en trois niveaux</h1>
+  <p>
+    Chaque organisation n’a pas les mêmes besoins ni le même niveau de maturité.
+    Les offres sont conçues pour s’inscrire dans une trajectoire progressive,
+    cohérente avec la Stratégie Nationale Bas-Carbone (SNBC 3).
+  </p>
 
-  <h2>Plan d'action bas-carbone</h2>
-  <p>Priorisation des actions court/moyen terme avec estimation coûts / gains et planning.</p>
+  <div class="grid-3">
 
-  <h2>Accompagnement & suivi</h2>
-  <p>Mise en œuvre technique, formation de vos équipes, et suivi des indicateurs (économie d'énergie, réduction CO₂).</p>
+    <div class="offer">
+      <h3>Offre 1 — Diagnostic carbone essentiel</h3>
+      <p>
+        Une première photographie pour comprendre où se situent
+        les principaux postes d’émissions et orienter la décision.
+      </p>
+      <ul>
+        <li>Analyse simplifiée des flux clés</li>
+        <li>Identification des postes dominants</li>
+        <li>Ordres de grandeur et priorités</li>
+        <li>Restitution pédagogique</li>
+      </ul>
+      <p><strong>Objectif :</strong> décider en connaissance de cause.</p>
+    </div>
 
-  <p class="cta"><a class="btn-primary" href="{{ '/contact/' | relative_url }}">Demander un diagnostic</a></p>
+    <div class="offer">
+      <h3>Offre 2 — Bilan carbone & trajectoire SNBC</h3>
+      <p>
+        Réalisation d’un bilan carbone structuré et construction
+        d’une trajectoire de réduction alignée avec la SNBC 3
+        et les stratégies sectorielles bas-carbone.
+      </p>
+      <ul>
+        <li>Bilan carbone scopes adaptés</li>
+        <li>Analyse réglementaire et stratégique</li>
+        <li>Scénarios de réduction</li>
+        <li>Plan d’action priorisé</li>
+      </ul>
+      <p><strong>Objectif :</strong> structurer une stratégie crédible.</p>
+    </div>
+
+    <div class="offer">
+      <h3>Offre 3 — Accompagnement bas-carbone</h3>
+      <p>
+        Accompagnement dans la durée pour piloter, suivre
+        et ajuster la stratégie bas-carbone.
+      </p>
+      <ul>
+        <li>Suivi des indicateurs</li>
+        <li>Aide à la mise en œuvre des actions</li>
+        <li>Animation interne</li>
+        <li>Appui décisionnel</li>
+      </ul>
+      <p><strong>Objectif :</strong> transformer l’essai dans le temps.</p>
+    </div>
+
+  </div>
 </section>
+
+<footer>
+  <p><strong>Forez Transition</strong><br>Climat et territoires</p>
+  <p>© 2026</p>
+</footer>
+
+</body>
+</html>
+
