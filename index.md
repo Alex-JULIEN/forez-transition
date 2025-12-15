@@ -22,8 +22,37 @@ layout: default
     </p>
 
     <a href="{{ '/offres/' | relative_url }}" class="btn-primary">
-      Découvrir les offres
+      Découvrir l'accompagnement
     </a>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <h2>Pourquoi agir aujourd’hui</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Enjeux climatiques</h3>
+      <p>
+        Les émissions de gaz à effet de serre doivent diminuer
+        rapidement pour limiter les impacts du changement climatique.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Cadre réglementaire</h3>
+      <p>
+        La SNBC 3 et les trajectoires sectorielles
+        structurent de plus en plus les politiques publiques
+        et les stratégies d’acteurs économiques.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Enjeux économiques</h3>
+      <p>
+        Anticiper les évolutions permet de sécuriser les activités,
+        d’optimiser les investissements
+        et d’éviter des transitions subies.
+      </p>
+    </div>
   </div>
 </section>
 
