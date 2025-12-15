@@ -86,7 +86,7 @@ layout: default
     et les trajectoires sectorielles.
   </p>
 
-  <a href="{{ '/a-propos/' | relative_url }}" class="btn-secondary">
+  <a href="{{ '/about/' | relative_url }}" class="btn-secondary">
     Comprendre l’approche
   </a>
 </section>
