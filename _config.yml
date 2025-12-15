@@ -1,9 +1,7 @@
 title: Forez Transition
-description: Climat & territoires
+subtitle: Climat & Territoires
 baseurl: "/forez-transition"
 url: "https://alex-julien.github.io"
-
 markdown: kramdown
-theme: null
 
 
