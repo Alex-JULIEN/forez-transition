@@ -78,27 +78,34 @@ layout: default
 
 <section class="section section-alt">
   <div class="offre-card">
-    <h2>Agir</h2>
-    <p class="offre-tag">Plan d’action & suivi</p>
+    <h2>Piloter</h2>
+    <p class="offre-tag">Suivi, indicateurs & trajectoire bas-carbone</p>
 
     <p>
       Cette offre s’adresse aux organisations
-      souhaitant transformer les résultats du Bilan Carbone®
-      en décisions concrètes et suivies dans le temps.
+      ayant déjà réalisé un <strong>Bilan Carbone®</strong>
+      et disposant d’un plan d’action structuré.
+    </p>
+
+    <p>
+      Elle vise à assurer le suivi dans le temps,
+      la cohérence des décisions
+      et l’inscription de la démarche
+      dans une trajectoire de transition crédible.
     </p>
 
     <ul>
-      <li>Construction d’un plan d’action priorisé</li>
-      <li>Analyse de faisabilité technique et organisationnelle</li>
-      <li>Mise en cohérence avec les trajectoires bas-carbone</li>
-      <li>Suivi des actions et indicateurs</li>
+      <li>Définition et suivi d’indicateurs carbone</li>
+      <li>Actualisation du plan de transition</li>
+      <li>Aide à la priorisation des actions dans le temps</li>
+      <li>Mise en cohérence avec la SNBC et les trajectoires sectorielles</li>
     </ul>
 
     <p>
-      L’objectif n’est pas l’optimisation marginale,
-      mais la mise en mouvement réelle,
-      compatible avec les contraintes économiques
-      et humaines de la structure.
+      Cette phase ne remplace pas le Bilan Carbone®,
+      elle en prolonge les effets
+      et permet d’ancrer la transition
+      dans la durée.
     </p>
   </div>
 </section>
