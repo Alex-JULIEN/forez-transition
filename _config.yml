@@ -1,8 +1,8 @@
-title: Forez Transition & Climat
-description: Accompagnement local pour la transition écologique dans le Forez.
+title: Forez Transition
+description: Climat & territoires
 baseurl: "/forez-transition"
 url: "https://alex-julien.github.io"
-theme: null
+
 markdown: kramdown
-permalink: pretty
-paginate: 5
+theme: null
+
