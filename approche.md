@@ -3,16 +3,30 @@ layout: default
 title: Approche
 ---
 
-<section class="container">
+# Une approche sobre, territoriale et pragmatique
 
-# Une approche sobre et territoriale
+Forez Transition est né d’un constat simple :  
+la transition écologique ne se décrète pas, elle se **construit dans les territoires**, avec les acteurs locaux.
 
-La transition bas-carbone ne se résume pas à produire un chiffre.
-Elle consiste à comprendre, décider et agir dans la durée.
+---
 
-## Pourquoi le territoire compte
-Les usages, les flux et les décisions sont locaux.
+## Une approche low-tech
+- Outils simples et compréhensibles
+- Démarches proportionnées aux enjeux
+- Refus des usines à gaz méthodologiques
 
-## Pourquoi la sobriété
-Pas d’outils lourds, pas de greenwashing, mais des méthodes appropriables.
-</section>
+---
+
+## Une lecture territoriale
+- Prise en compte des réalités locales
+- Articulation avec les dynamiques du Forez
+- Cohérence entre stratégie climat et développement territorial
+
+---
+
+## Une posture indépendante
+- Pas de solution toute faite
+- Pas de greenwashing
+- Pas de sur-promesse
+
+L’objectif est d’aider les organisations à **décider en connaissance de cause**.
