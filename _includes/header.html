@@ -1,16 +1,14 @@
-<header class="site-header">
-  <div class="header-inner container">
-    <a class="logo" href="{{ '/' | relative_url }}" aria-label="Forez Transition & Climat — Accueil">
-      <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Logo Forez Transition & Climat">
+<header>
+  <div class="header-inner">
+    <a href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/logo.svg" alt="Forez Transition">
     </a>
-
-    <nav class="site-nav" role="navigation" aria-label="Menu principal">
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Accueil</a></li>
-        <li><a href="{{ '/offre/' | relative_url }}">Offre</a></li>
-        <li><a href="{{ '/about/' | relative_url }}">À propos</a></li>
-        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
-      </ul>
+    <nav>
+      <a href="{{ site.baseurl }}/">Accueil</a>
+      <a href="{{ site.baseurl }}/approche">Approche</a>
+      <a href="{{ site.baseurl }}/offres">Offres</a>
+      <a href="{{ site.baseurl }}/contact">Contact</a>
     </nav>
   </div>
 </header>
+
