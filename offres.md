@@ -1,5 +1,6 @@
 ---
 title: Offres
+permalink: /offres/
 layout: default
 ---
 
