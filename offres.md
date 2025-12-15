@@ -4,120 +4,116 @@ permalink: /offres/
 layout: default
 ---
 
-<section class="intro">
-  <h1>Un accompagnement carbone structuré et proportionné</h1>
-  <p class="lead">
-    Forez Transition accompagne les PME et les collectivités locales
-    dans la compréhension, la structuration et la mise en œuvre de leur
-    trajectoire bas-carbone.
+<section class="section">
+  <h1>Offres d’accompagnement</h1>
+
+  <p class="intro-offres">
+    Forez Transition propose des accompagnements progressifs,
+    adaptés au niveau de maturité des organisations
+    et à leurs contraintes réelles.
   </p>
+
   <p>
-    L’approche est volontairement pragmatique : pas de solution standard,
-    pas de complexité inutile, mais un cadre clair pour décider et agir.
+    Toutes les structures n’ont pas besoin
+    du même niveau d’analyse dès le départ.
+    L’enjeu est de construire une démarche cohérente,
+    utile et proportionnée.
   </p>
 </section>
 
-<section class="offres-parcours">
-
-  <article class="offre-card">
-  <div class="offre-header">
+<section class="section section-alt">
+  <div class="offre-card">
     <h2>Comprendre</h2>
-    <span class="offre-tag">Cadrage carbone & énergétique</span>
-  </div>
-  <p class="offre-intro">
-    Une première approche pour comprendre les enjeux carbone
-    de votre activité sans entrer dans une démarche lourde.
-  </p>
-  <ul>
-    <li>Cadrage simplifié des émissions et des usages énergétiques</li>
-    <li>Ordres de grandeur et postes principaux</li>
-    <li>Lecture pédagogique et accessible</li>
-    <li>Identification des premiers leviers d’action</li>
-  </ul>
-  <p class="offre-outcome">
-    👉 Une vision claire pour décider de la suite à donner.
-  </p>
-</article>
+    <p class="offre-tag">Approche simplifiée – hors Bilan Carbone®</p>
 
-  <article class="offre-card accent">
-  <div class="offre-header">
+    <p>
+      Cette offre constitue une première entrée
+      pour les organisations souhaitant clarifier leurs enjeux
+      climat et énergie, sans s’engager immédiatement
+      dans une démarche complète de comptabilité carbone.
+    </p>
+
+    <ul>
+      <li>Analyse qualitative des enjeux carbone et énergie</li>
+      <li>Identification des postes à enjeux</li>
+      <li>Lecture simplifiée des ordres de grandeur</li>
+      <li>Repères réglementaires et sectoriels</li>
+    </ul>
+
+    <p>
+      Cette approche permet de poser un cadre,
+      de vérifier la pertinence d’un Bilan Carbone®
+      et d’éviter des démarches inadaptées ou prématurées.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="offre-card">
     <h2>Structurer</h2>
-    <span class="offre-tag">Bilan Carbone® & trajectoire</span>
-  </div>
-  <p class="offre-intro">
-    Une démarche structurante pour inscrire votre organisation
-    dans une trajectoire bas-carbone crédible.
-  </p>
-  <ul>
-    <li>Réalisation d’un <strong>Bilan Carbone®</strong> (méthodologie ADEME / ABC)</li>
-    <li>Périmètre adapté aux enjeux de la structure</li>
-    <li>Analyse détaillée des postes d’émissions</li>
-    <li>Mise en cohérence avec la <strong>SNBC 3</strong> et les trajectoires sectorielles</li>
-  </ul>
-  <p class="offre-outcome">
-    👉 Une base méthodologique robuste pour piloter la transition.
-  </p>
-</article>
+    <p class="offre-tag">Bilan Carbone® – méthode reconnue</p>
 
-  <article class="offre-card">
-  <div class="offre-header">
+    <p>
+      Cette offre repose sur la réalisation d’un
+      <strong>Bilan Carbone®</strong>,
+      méthodologie de référence développée par l’ADEME
+      et portée par l’Association pour la transition Bas Carbone (ABC).
+    </p>
+
+    <ul>
+      <li>Définition du périmètre organisationnel</li>
+      <li>Collecte et analyse des données</li>
+      <li>Calcul des émissions directes et indirectes</li>
+      <li>Restitution claire et exploitable</li>
+    </ul>
+
+    <p>
+      Le Bilan Carbone® constitue aujourd’hui
+      un socle reconnu pour structurer une démarche climat,
+      en cohérence avec la Stratégie Nationale Bas-Carbone (SNBC)
+      et les trajectoires sectorielles.
+    </p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="offre-card">
     <h2>Agir</h2>
-    <span class="offre-tag">Plans d’actions & suivi</span>
+    <p class="offre-tag">Plan d’action & suivi</p>
+
+    <p>
+      Cette offre s’adresse aux organisations
+      souhaitant transformer les résultats du Bilan Carbone®
+      en décisions concrètes et suivies dans le temps.
+    </p>
+
+    <ul>
+      <li>Construction d’un plan d’action priorisé</li>
+      <li>Analyse de faisabilité technique et organisationnelle</li>
+      <li>Mise en cohérence avec les trajectoires bas-carbone</li>
+      <li>Suivi des actions et indicateurs</li>
+    </ul>
+
+    <p>
+      L’objectif n’est pas l’optimisation marginale,
+      mais la mise en mouvement réelle,
+      compatible avec les contraintes économiques
+      et humaines de la structure.
+    </p>
   </div>
-  <p class="offre-intro">
-    Un accompagnement dans la durée pour transformer
-    les orientations stratégiques en actions concrètes.
-  </p>
-  <ul>
-    <li>Construction de plans d’actions opérationnels</li>
-    <li>Priorisation selon impact carbone et faisabilité</li>
-    <li>Définition d’indicateurs de suivi</li>
-    <li>Accompagnement et ajustements dans le temps</li>
-  </ul>
-  <p class="offre-outcome">
-    👉 Des actions suivies, réalistes et ancrées dans le réel.
-  </p>
-</article>
-
-<section class="methodologie">
-  <h2>Une méthodologie reconnue</h2>
-  <p>
-    Les offres <strong>Structurer</strong> et <strong>Agir</strong>
-    s’appuient sur la méthode <strong>Bilan Carbone®</strong>,
-    développée par l’ADEME et portée par l’Association pour la transition Bas Carbone (ABC).
-  </p>
-  <p>
-    Cette méthode constitue une référence reconnue
-    pour construire des trajectoires bas-carbone crédibles
-    et comparables.
-  </p>
 </section>
 
-</section>
+<section class="section">
+  <h2>Une démarche progressive</h2>
 
-<section class="cadre-reglementaire">
-  <h2>Un cadre réglementaire en évolution</h2>
   <p>
-    La Stratégie Nationale Bas-Carbone (SNBC 3) fixe des trajectoires
-    de réduction des émissions pour l’ensemble des secteurs.
-    Même lorsqu’elle n’est pas directement contraignante,
-    elle constitue un cadre de référence de plus en plus structurant
-    pour les entreprises et les collectivités.
+    Ces offres peuvent être mobilisées
+    de manière indépendante ou progressive.
   </p>
-  <p>
-    Forez Transition vous aide à comprendre ces évolutions
-    et à les intégrer de manière proportionnée à votre activité.
-  </p>
-</section>
 
-<section class="cta-final">
-  <h2>Échanger sur votre situation</h2>
   <p>
-    Chaque organisation est différente.
-    Un premier échange permet de clarifier les enjeux
-    et de définir un accompagnement adapté.
+    Forez Transition accompagne chaque organisation
+    dans le choix du niveau d’engagement pertinent,
+    sans surdimensionnement ni démarche imposée.
   </p>
-  <a href="{{ site.baseurl }}/contact/" class="btn-primary">
-    Prendre contact
-  </a>
-</section>
+</section></section>
