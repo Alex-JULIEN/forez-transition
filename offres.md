@@ -123,4 +123,4 @@ layout: default
     dans le choix du niveau d’engagement pertinent,
     sans surdimensionnement ni démarche imposée.
   </p>
-</section></section>
+</section>
