@@ -1,22 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>{{ page.title }} — {{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  <meta charset="UTF-8">
+  <title>{{ page.title }} – {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 </head>
 <body>
+
   {% include header.html %}
 
-  <main class="main-content">
-    <div class="content-wrapper container">
-      {{ content }}
-    </div>
+  <main>
+    {{ content }}
   </main>
 
   {% include footer.html %}
+
 </body>
 </html>
+
 
