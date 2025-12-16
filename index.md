@@ -21,7 +21,7 @@ layout: default
     </p>
 
     <div class="hero-actions">
-      <a href="offres.html" class="btn-primary">
+      <a href="{{ '/about/' | relative_url }}" class="btn-primary">
         Découvrir les accompagnements
       </a>
     </div>
