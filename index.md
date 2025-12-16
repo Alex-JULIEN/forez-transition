@@ -2,12 +2,11 @@
 title: Forez Transition
 layout: default
 ---
-<section class="section">
+
+<section class="hero section-alt">
   <div class="hero-content">
-    <h1>
-      Forez Transition<br>
-      <span class="subtitle">Climat & territoires</span>
-    </h1>
+    <h1>Forez Transition</h1>
+    <p class="subtitle">Climat & territoires</p>
 
     <p class="hero-tagline">
       Savoir d’où l’on vient pour savoir où l’on va.
@@ -24,6 +23,7 @@ layout: default
       Découvrir l'accompagnement
     </a>
   </div>
+</section>
 </section>
 <section class="section">
 </section>
