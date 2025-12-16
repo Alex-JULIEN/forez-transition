@@ -106,6 +106,6 @@ layout: default
     dans des démarches purement déclaratives
     ou de communication sans actions concrètes.
   </p>
-  <p>L’objectif est d’aider les organisations à **décider en connaissance de cause**.</p>
+  <p>L’objectif est d’aider les organisations à décider en connaissance de cause.</p>
   </div>
 </section>
