@@ -4,19 +4,28 @@ layout: default
 ---
 
 <section class="hero section-alt">
-  <div class="hero-content">
-    <h1>Forez Transition</h1>
-    <p class="subtitle">Climat & territoires</p>
+  <div class="container hero-inner">
+
+    <span class="hero-eyebrow">Climat · Énergie · Territoire</span>
+
+    <h1>Accompagner les entreprises du Forez<br>dans leur transition climatique</h1>
 
     <p class="hero-tagline">
-      Savoir d’où l’on vient pour savoir où l’on va.
+      Sobriété, efficacité et décisions ancrées dans le réel.
     </p>
 
     <p class="hero-intro">
-      J’accompagne les organisations et collectivités du territoire
-      dans la structuration, la mise en œuvre et le pilotage
-      de leur stratégie climat.
+      Forez Transition accompagne les PME industrielles et acteurs locaux
+      pour comprendre leurs impacts, structurer leurs obligations
+      et engager des actions concrètes, utiles et réalistes.
     </p>
+
+    <div class="hero-actions">
+      <a href="offres.html" class="btn-primary">
+        Découvrir les accompagnements
+      </a>
+    </div>
+
   </div>
 </section>
 <section class="section">
