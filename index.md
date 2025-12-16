@@ -27,30 +27,40 @@ layout: default
   </div>
 </section>
 
-<section class="section section-alt">
-  <h2>Pourquoi agir aujourd’hui</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Enjeux climatiques</h3>
+<section class="section section-alt why-act">
+  <h2>Pourquoi agir ?</h2>
+
+  <p class="section-intro">
+    Engager une démarche climat n’est pas une fin en soi.
+    C’est un moyen de mieux comprendre ses dépendances,
+    ses marges de manœuvre et ses risques à moyen terme.
+  </p>
+
+  <div class="why-grid">
+    <div class="why-item">
+      <h3>Anticiper</h3>
       <p>
-        Les émissions de gaz à effet de serre doivent diminuer
-        rapidement pour limiter les impacts du changement climatique.
+        Évolutions réglementaires, hausse des coûts de l’énergie,
+        tensions sur les ressources :
+        comprendre aujourd’hui permet d’éviter les décisions subies demain.
       </p>
     </div>
-    <div class="card">
-      <h3>Cadre réglementaire</h3>
+
+    <div class="why-item">
+      <h3>Décider</h3>
       <p>
-        La SNBC 3 et les trajectoires sectorielles
-        structurent de plus en plus les politiques publiques
-        et les stratégies d’acteurs économiques.
+        Une lecture carbone structurée apporte
+        des ordres de grandeur utiles
+        pour prioriser les actions réellement efficaces.
       </p>
     </div>
-    <div class="card">
-      <h3>Enjeux économiques</h3>
+
+    <div class="why-item">
+      <h3>Donner du sens</h3>
       <p>
-        Anticiper les évolutions permet de sécuriser les activités,
-        d’optimiser les investissements
-        et d’éviter des transitions subies.
+        Une démarche climat claire permet
+        d’aligner stratégie, actions et discours,
+        sans surpromesse ni communication creuse.
       </p>
     </div>
   </div>
