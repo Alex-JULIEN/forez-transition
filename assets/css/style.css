@@ -1,4 +1,21 @@
-:root{
+:root
+body {
+  font-family: "Inter", "Roboto", system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat", "Inter", system-ui, sans-serif;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #121E1C;
+}
+
+{
 --green:#005059;
 --bordeaux:#76162F;
 --ocre:#CC9E00;
@@ -15,9 +32,6 @@ body{margin:0;font-family:Inter,Roboto,sans-serif;color:var(--text);background:v
 .logo img{height:48px;width:auto;}
 nav a{margin-left:1.5rem;text-decoration:none;color:var(--text);font-weight:500;}
 nav a:hover{color:var(--green);}
-.hero{padding:4rem 1.5rem;background:linear-gradient(180deg,#F8F8F8,var(--beige));}
-.hero-text{max-width:600px;}
-.hero h1{font-size:2.8rem;color:var(--green);}
 .slogan{font-style:italic;margin:1rem 0;}
 .btn-primary{display:inline-block;margin-top:1.5rem;padding:.75rem 1.5rem;background:var(--green);color:#fff;text-decoration:none;border-radius:6px;}
 .section-alt{background:var(--beige);padding:3rem 1.5rem;}
@@ -45,16 +59,18 @@ footer{text-align:center;padding:2rem;font-size:.9rem;color:#555;}
 }
 
 .offre-card {
-  background: #fff;
+  background: #ffffff;
   padding: 2.5rem;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .offre-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.12);
 }
 
 .offre-card.accent {
@@ -66,12 +82,6 @@ footer{text-align:center;padding:2rem;font-size:.9rem;color:#555;}
   justify-content: space-between;
   align-items: baseline;
   gap: 1rem;
-}
-
-.offre-tag {
-  font-size: 0.85rem;
-  color: var(--bordeaux);
-  font-weight: 500;
 }
 
 .offre-intro {
@@ -117,21 +127,6 @@ footer{text-align:center;padding:2rem;font-size:.9rem;color:#555;}
   margin-bottom: 1.5rem;
 }
 
-.offre-card {
-  background: #ffffff;
-  padding: 2.5rem;
-  border-radius: 12px;
-  max-width: 800px;
-  margin: 0 auto;
-  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.offre-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 45px rgba(0,0,0,0.12);
-}
-
 .offre-tag {
   color: #76162F;
   font-size: 0.85rem;
@@ -145,6 +140,27 @@ footer{text-align:center;padding:2rem;font-size:.9rem;color:#555;}
 .hero {
   background: linear-gradient(180deg, var(--bg), var(--beige));
   padding: 5rem 1.5rem;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  color: var(--green);
+}
+
+.hero-tagline {
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+
+.hero-intro {
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
 }
 
 .hero-inner {
@@ -451,34 +467,21 @@ footer{text-align:center;padding:2rem;font-size:.9rem;color:#555;}
 
 /* RESPONSIVE */
 
-media (max-width: 768px) {
+@media (max-width: 768px) {
   .footer-inner {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
 
-  .footer-nav {
-    margin-top: 1rem;
+  body {
+    font-size: 16px;
+    line-height: 1.6;
   }
+
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.6rem; }
 }
 
-
-body {
-  font-family: "Inter", "Roboto", system-ui, sans-serif;
-  font-size: 17px;
-  line-height: 1.65;
-  color: #121E1C;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-h1, h2, h3, h4 {
-  font-family: "Montserrat", "Inter", system-ui, sans-serif;
-  font-weight: 600;
-  line-height: 1.25;
-  letter-spacing: -0.01em;
-  color: #121E1C;
-}
 
 h1 {
   font-size: clamp(2.2rem, 4vw, 3rem);
@@ -537,17 +540,3 @@ a:hover {
   color: rgba(18, 30, 28, 0.7);
 }
 
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-    line-height: 1.6;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.6rem;
-  }
-}
