@@ -75,6 +75,7 @@ a:hover {
 
 .section-alt {
   background: var(--beige);
+  border-radius: 10px;
   padding: 3rem 1.5rem;
 }
 
@@ -137,7 +138,7 @@ nav a {
 .card {
   background: #fff;
   padding: 2.5rem;
-  border-radius: 12px;
+  border-radius: 10px;
   box-shadow: 0 12px 30px rgba(0,0,0,.08);
   transition: transform .2s ease, box-shadow .2s ease;
 }
