@@ -37,7 +37,7 @@ layout: default
   </p>
 
   <div class="why-grid">
-    <div class="why-item">
+    <div class=".card">
       <h3>Anticiper</h3>
       <p>
         Évolutions réglementaires, hausse des coûts de l’énergie,
@@ -46,7 +46,7 @@ layout: default
       </p>
     </div>
 
-    <div class="why-item">
+    <div class=".card">
       <h3>Décider</h3>
       <p>
         Une lecture carbone structurée apporte
@@ -55,7 +55,7 @@ layout: default
       </p>
     </div>
 
-    <div class="why-item">
+    <div class=".card">
       <h3>Donner du sens</h3>
       <p>
         Une démarche climat claire permet
