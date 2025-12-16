@@ -364,47 +364,81 @@ nav a {
 /* FOOTER */
 .site-footer {
   background: #121E1C;
-  color: rgba(248,248,248,0.8);
-  padding: 3rem 0 2rem;
+  color: rgba(248,248,248,0.85);
+  padding: 3.5rem 0 2rem;
+  margin-top: 4rem;
 }
-.site-footer p {
-  font-size: 0.85rem;
-  line-height: 1.6;
-}
+
 .site-footer a {
+  color: #CC9E00;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
-.footer-brand,
-.footer-meta {
+
+.site-footer a:hover {
+  color: #F8F8F8;
+}
+
+/* Structure */
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+/* Bloc identité */
+.footer-brand {
   text-align: center;
 }
 
-.footer-inner {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+.footer-brand h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #F8F8F8;
 }
 
-/* RESPONSIVE */
+.footer-brand p {
+  margin: 0.3rem 0 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(248,248,248,0.6);
+}
 
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-  }
+/* Bloc méta */
+.footer-meta {
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: rgba(248,248,248,0.6);
+}
 
+.footer-meta p {
+  margin: 0.3rem 0;
+}
+
+/* Séparation subtile */
+.footer-meta::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  margin: 0 auto 1.2rem;
+  background: rgba(248,248,248,0.15);
+}
+
+/* Responsive — desktop */
+@media (min-width: 768px) {
   .footer-inner {
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
   }
 
   .footer-brand {
-    text-align: left;
-  }
-
-  .footer-meta {
-    text-align: right;
+    margin-bottom: 0.5rem;
   }
 }
 
