@@ -38,7 +38,7 @@ layout: default
 <section class="section">
   <h2>Comment nous contacter</h2>
 
-  <div class="parcours-step">
+  <div class="card">
     <p>
       📧 <strong>Email :</strong><br>
       <a href="mailto:contact@forez-transition.fr">
