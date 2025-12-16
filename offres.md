@@ -22,7 +22,7 @@ layout: default
 </section>
 
 <section class="section section-alt">
-  <div class="offre-card">
+  <div class=".card">
     <h2>Comprendre</h2>
     <p class="offre-tag">Approche simplifiée – hors Bilan Carbone®</p>
 
@@ -49,7 +49,7 @@ layout: default
 </section>
 
 <section class="section">
-  <div class="offre-card">
+  <div class=".card">
     <h2>Structurer</h2>
     <p class="offre-tag">Bilan Carbone® – méthode reconnue</p>
 
@@ -77,7 +77,7 @@ layout: default
 </section>
 
 <section class="section section-alt">
-  <div class="offre-card">
+  <div class=".card">
     <h2>Piloter</h2>
     <p class="offre-tag">Suivi, indicateurs & trajectoire bas-carbone</p>
 
