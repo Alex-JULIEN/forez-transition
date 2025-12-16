@@ -28,8 +28,6 @@ layout: default
 
   </div>
 </section>
-<section class="section">
-</section>
 <section class="section section-alt">
   <h2>Pourquoi agir ?</h2>
 
