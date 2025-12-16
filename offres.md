@@ -5,9 +5,10 @@ layout: default
 ---
 
 <section class="section">
+  <span class="hero-eyebrow">Comprendre · Structurer · Piloter</span>
   <h1>Offres d’accompagnement</h1>
 
-  <p class="intro-offres">
+  <p class="hero-intro">
     Forez Transition propose des accompagnements progressifs,
     adaptés au niveau de maturité des organisations
     et à leurs contraintes réelles.
