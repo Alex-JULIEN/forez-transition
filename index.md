@@ -159,5 +159,4 @@ layout: default
         Prendre contact
       </a>
     </div>
-  </a>
 </section>
