@@ -13,15 +13,10 @@ layout: default
     </p>
 
     <p class="hero-intro">
-      Forez Transition accompagne les organisations
-      dans la compréhension, la structuration
-      et le pilotage de leur démarche climat,
-      avec des méthodes reconnues et proportionnées.
+      J’accompagne les organisations et collectivités du territoire
+      dans la structuration, la mise en œuvre et le pilotage
+      de leur stratégie climat.
     </p>
-
-    <a href="{{ '/offres/' | relative_url }}" class="btn-primary">
-      Découvrir l'accompagnement
-    </a>
   </div>
 </section>
 <section class="section">
@@ -36,7 +31,7 @@ layout: default
   </p>
 
   <div class="parcours">
-    <div class="parcours-step">
+    <div class="card">
       <h3>Anticiper</h3>
       <p>
         Évolutions réglementaires, hausse des coûts de l’énergie,
@@ -45,7 +40,7 @@ layout: default
       </p>
     </div>
 
-    <div class="parcours-step">
+    <div class="card">
       <h3>Décider</h3>
       <p>
         Une lecture carbone structurée apporte
@@ -54,7 +49,7 @@ layout: default
       </p>
     </div>
 
-    <div class="parcours-step">
+    <div class="card">
       <h3>Donner du sens</h3>
       <p>
         Une démarche climat claire permet
@@ -76,7 +71,7 @@ layout: default
   </p>
 
   <div class="parcours">
-    <div class="parcours-step">
+    <div class="card">
       <h3>Comprendre</h3>
       <p>
         Clarifier les enjeux carbone et énergie,
@@ -86,7 +81,7 @@ layout: default
       <p class="step-note">Approche simplifiée – hors Bilan Carbone®</p>
     </div>
 
-    <div class="parcours-step">
+    <div class="card">
       <h3>Structurer</h3>
       <p>
         Réaliser un Bilan Carbone® complet,
@@ -96,7 +91,7 @@ layout: default
       <p class="step-note">Méthode reconnue – ADEME / ABC</p>
     </div>
 
-    <div class="parcours-step">
+    <div class="card">
       <h3>Piloter</h3>
       <p>
         Suivre les indicateurs,
