@@ -154,8 +154,10 @@ layout: default
     Vous souhaitez clarifier votre situation
     ou comprendre quelle démarche est pertinente ?
   </p>
-
-  <a href="{{ '/contact/' | relative_url }}" class="btn-primary">
-    Prendre contact
+<div class="hero-actions">
+      <a href="{{ '/contact/' | relative_url }}" class="btn-primary">
+        Prendre contact
+      </a>
+    </div>
   </a>
 </section>
