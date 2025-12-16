@@ -24,7 +24,6 @@ layout: default
     </a>
   </div>
 </section>
-</section>
 <section class="section">
 </section>
 <section class="section section-alt">
