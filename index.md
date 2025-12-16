@@ -26,8 +26,9 @@ layout: default
     </a>
   </div>
 </section>
-
-<section class="section section-alt why-act">
+<section class="section">
+</section>
+<section class="section section-alt">
   <h2>Pourquoi agir ?</h2>
 
   <p class="section-intro">
@@ -36,7 +37,7 @@ layout: default
     ses marges de manœuvre et ses risques à moyen terme.
   </p>
 
-  <div class="why-grid">
+  <div class="parcours">
     <div class="parcours-step">
       <h3>Anticiper</h3>
       <p>
