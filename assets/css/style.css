@@ -73,12 +73,16 @@ a:hover {
   margin-bottom: 4rem;
   border-radius: 10px;
   padding: 3rem 1.5rem;
+  margin-top: 0;
 }
 
 .section-alt {
   background: var(--beige);
   border-radius: 10px;
   padding: 3rem 1.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+  margin-top: 0;
 }
 
 /* HEADER */
@@ -131,6 +135,8 @@ nav a {
 /* HERO */
 
 .hero {
+  box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+  margin-bottom: 3rem;
   padding: 5rem 0 4rem;
   background: linear-gradient(
     180deg,
@@ -150,6 +156,7 @@ nav a {
 
 .hero h1 {
   max-width: 18ch;
+  margin-bottom: 1rem;
 }
 
 .hero-tagline {
@@ -163,6 +170,15 @@ nav a {
   font-size: 1.05rem;
   max-width: 60ch;
   margin-bottom: 2rem;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 60%;
+  margin: 3rem auto 0;
+  background: rgba(0,0,0,0.06);
 }
 
 /* CARD */
