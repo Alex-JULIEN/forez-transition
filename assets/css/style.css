@@ -110,6 +110,18 @@ a:hover {
   font-size: 1.05rem;
   line-height: 1.2;
 }
+.logo span {
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.2;
+}
+
+.logo small {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bordeaux);
+}
 
 nav a {
   margin-left: 1.5rem;
@@ -120,13 +132,13 @@ nav a {
 
 .hero {
   background: var(--beige);
-  padding: 4rem 1.5rem;
+  padding: 6rem 1.5rem;
   text-align: center;
 }
 
 .hero-content {
   max-width: 800px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .subtitle {
@@ -148,17 +160,17 @@ nav a {
 .card {
   background: #fff;
   padding: 2.5rem;
-  border-radius: 10px;
-  box-shadow: 0 12px 30px rgba(0,0,0,.08);
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
   transition: transform .2s ease, box-shadow .2s ease;
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 18px 45px rgba(0,0,0,.12);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.12);
 }
 
-.card.accent {
+.card--alt {
   background: var(--beige);
 }
 
@@ -232,19 +244,6 @@ nav a {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 2rem;
   margin-top: 3rem;
-}
-
-.parcours-step {
-  background: #ffffff;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.parcours-step:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 18px 45px rgba(0,0,0,0.12);
 }
 
 .step-note {
@@ -341,55 +340,17 @@ nav a {
 /* FOOTER */
 .site-footer {
   background: #121E1C;
-  color: rgba(248,248,248,0.85);
+  color: rgba(248,248,248,0.8);
 }
 
 .footer-brand h3 {
   font-size: 1.2rem;
-  margin-bottom: .3rem;
 }
 
 .footer-brand p {
-  font-size: .95rem;
+  font-size: 0.9rem;
   line-height: 1.6;
   max-width: 40ch;
-  opacity: .9;
-}
-.footer-tagline {
-  display: block;
-  margin-top: 0.3rem;
-  font-size: 0.85rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #CC9E00;
-}
-
-.footer-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-nav li {
-  margin-bottom: 0.6rem;
-}
-
-.footer-nav a {
-  color: #F8F8F8;
-  text-decoration: none;
-  font-size: 0.95rem;
-}
-
-.footer-nav a:hover {
-  color: #CC9E00;
-}
-
-.footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.1);
-  padding: 1.2rem 1.5rem;
-  text-align: center;
-  font-size: 0.8rem;
-  color: rgba(248,248,248,0.7);
 }
 
 .footer-impact {
