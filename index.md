@@ -2,8 +2,7 @@
 title: Forez Transition
 layout: default
 ---
-
-<section class="hero">
+<section class="section">
   <div class="hero-content">
     <h1>
       Forez Transition<br>
