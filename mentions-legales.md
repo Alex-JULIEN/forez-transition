@@ -38,17 +38,22 @@ layout: default
     sans votre consentement.
     Aucun cookie de suivi n’est utilisé.
   </p>
+
+  <h2>Sobriété numérique</h2>
+   <p>
+    Ce site a été conçu selon des principes de sobriété numérique :
+    architecture statique (Jekyll), limitation des scripts,
+    images optimisées, absence de traceurs et hébergement mutualisé.
+  </p>  
+  <p>
+    L’impact carbone par page vue est estimé à titre indicatif,
+    sur la base d’ordres de grandeur issus de référentiels
+    reconnus de la sobriété numérique (EcoIndex, Website Carbon Calculator).
+  </p> 
+  <p>
+    Cette estimation vise la transparence et non une prétention
+    à la neutralité carbone.
+  </p>
 </section>
 
-## Sobriété numérique
 
-Ce site a été conçu selon des principes de sobriété numérique :
-architecture statique (Jekyll), limitation des scripts,
-images optimisées, absence de traceurs et hébergement mutualisé.
-
-L’impact carbone par page vue est estimé à titre indicatif,
-sur la base d’ordres de grandeur issus de référentiels
-reconnus de la sobriété numérique (EcoIndex, Website Carbon Calculator).
-
-Cette estimation vise la transparence et non une prétention
-à la neutralité carbone.
