@@ -347,19 +347,9 @@ nav a {
   font-size: 0.85rem;
   line-height: 1.6;
 }
-
 .site-footer a {
   text-decoration: underline;
   text-underline-offset: 3px;
-}
-.footer-brand h3 {
-  font-size: 1.2rem;
-}
-
-.footer-brand p {
-  font-size: 0.9rem;
-  line-height: 1.6;
-  max-width: 40ch;
 }
 .footer-brand,
 .footer-meta {
