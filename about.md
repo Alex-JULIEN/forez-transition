@@ -92,6 +92,7 @@ layout: default
 </section>
 
 <section class="section">
+  <div class="card">
   <h2>À qui s’adresse l’accompagnement</h2>
 
   <ul>
@@ -105,4 +106,6 @@ layout: default
     dans des démarches purement déclaratives
     ou de communication sans actions concrètes.
   </p>
-</section>L’objectif est d’aider les organisations à **décider en connaissance de cause**.
+  <p>L’objectif est d’aider les organisations à **décider en connaissance de cause**.</p>
+  </div>
+</section>
