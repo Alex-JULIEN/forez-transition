@@ -336,3 +336,34 @@ footer{text-align:center;padding:2rem;font-size:.9rem;color:#555;}
   border-radius: 10px;
   margin: 2rem 0;
 }
+
+/* POURQUOI AGIR */
+
+.why-act {
+  text-align: center;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.why-item {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.why-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.12);
+}
+
+.why-item h3 {
+  color: #005059;
+  margin-bottom: 0.8rem;
+}
