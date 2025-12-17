@@ -441,4 +441,42 @@ nav a {
     margin-bottom: 0.5rem;
   }
 }
+/* === ICON SYSTEM === */
+
+.icon {
+  width: 40px;
+  height: 40px;
+  stroke: var(--green);
+  flex-shrink: 0;
+}
+
+.icon-sm {
+  width: 28px;
+  height: 28px;
+}
+
+.icon-lg {
+  width: 56px;
+  height: 56px;
+}
+
+.icon-muted {
+  opacity: 0.7;
+}
+
+/* Icône au-dessus du contenu */
+.icon-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+/* Icône à gauche du texte */
+.icon-inline {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+}
 
