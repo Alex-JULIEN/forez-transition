@@ -25,7 +25,13 @@ layout: default
         Découvrir les accompagnements
       </a>
     </div>
-
+     
+     <!-- Icône hero -->
+    <div class="hero-visual">
+      <img src="/assets/icons/globe-europe-africa.svg"
+           alt=""
+           class="icon icon-lg icon-muted">
+    </div>
   </div>
 </section>
 <section class="section section-alt">
@@ -39,6 +45,7 @@ layout: default
 
   <div class="parcours">
     <div class="card">
+      <img src="/assets/icons/exclamation-triangle.svg" class="icon icon-sm" alt="">
       <h3>Anticiper</h3>
       <p>
         Évolutions réglementaires, hausse des coûts de l’énergie,
@@ -48,6 +55,7 @@ layout: default
     </div>
 
     <div class="card">
+    <img src="/assets/icons/adjustments-horizontal.svg" class="icon icon-sm" alt="">
       <h3>Décider</h3>
       <p>
         Une lecture carbone structurée apporte
@@ -57,6 +65,7 @@ layout: default
     </div>
 
     <div class="card">
+    <img src="/assets/icons/chat-bubble-left-right.svg" class="icon icon-sm" alt="">
       <h3>Donner du sens</h3>
       <p>
         Une démarche climat claire permet
@@ -79,6 +88,7 @@ layout: default
 
   <div class="parcours">
     <div class="card">
+      <img src="/assets/icons/magnifying-glass.svg" class="icon icon-sm" alt="">
       <h3>Comprendre</h3>
       <p>
         Clarifier les enjeux carbone et énergie,
@@ -89,6 +99,7 @@ layout: default
     </div>
 
     <div class="card">
+      <img src="/assets/icons/scale.svg" class="icon icon-sm" alt="">
       <h3>Structurer</h3>
       <p>
         Réaliser un Bilan Carbone® complet,
@@ -99,6 +110,7 @@ layout: default
     </div>
 
     <div class="card">
+      <img src="/assets/icons/chart-bar-square.svg" class="icon icon-sm" alt="">
       <h3>Piloter</h3>
       <p>
         Suivre les indicateurs,
@@ -112,7 +124,7 @@ layout: default
 
 <section class="section section-alt">
   <h2>Une méthode reconnue</h2>
-
+  <img src="/assets/icons/shield-check.svg" class="icon icon-sm" alt="">
   <p>
     Forez Transition est habilité à déployer
     la méthode <strong>Bilan Carbone®</strong>,
@@ -133,7 +145,7 @@ layout: default
 
 <section class="section">
   <h2>Pour qui ?</h2>
-
+  <img src="/assets/icons/building-office.svg" class="icon icon-sm" alt="">
   <ul>
     <li>PME industrielles et artisanales</li>
     <li>Collectivités locales</li>
@@ -149,7 +161,7 @@ layout: default
 
 <section class="section section-alt">
   <h2>Échanger simplement</h2>
-
+  <img src="/assets/icons/envelope.svg" class="icon icon-sm" alt="">
   <p>
     Vous souhaitez clarifier votre situation
     ou comprendre quelle démarche est pertinente ?
