@@ -28,7 +28,7 @@ layout: default
      
      <!-- Icône hero -->
     <div class="hero-visual">
-      <img src="/assets/icons/globe-europe-africa.svg"
+      <img src="{{ '/assets/icons/globe-europe-africa.svg' | relative_url }}"
            alt=""
            class="icon icon-lg icon-muted">
     </div>
